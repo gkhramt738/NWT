@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">NWT</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_string">This string welcomes the user to the app.</string>
+    <string name="user_login_button">User Login</string>
+    <string name="user_login_button_string">This button is for user login.</string>
+    <string name="guest_login_button">Guest Login</string>
+    <string name="guest_login_button_string">This button is for guest login.</string>
+    <string name="lets_get_started">Let\'s get started.</string>
+
+    <string name="instructions">You will be asked a series of questions related to your personal finances.</string>
+    <string name="question_apply">If a question does not apply to you, \n leave it blank</string>
+    <string name="leave_it_to_us">We\'ll do the rest!</string>
+    <string name="begin">Begin</string>
+    <string name="assets">Assets</string>
+    <string name="liabilities">Liabilities</string>
+    <string name="next">Next</string>
+
+    <string name="assets_desc">This section will ask about your assets, such as property, business, and other.</string>
+    <string name="confidentiality_notice">All responses entered will be kept confidential, and are never saved.</string>
+
+<!--    Questionnaire Strings - Assets - 1 per each screen-->
+    <string name="q1">What is the <b>total</b> dollar amount of the money you currently have in your checking accounts?</string>
+    <string name="q2">What is the <b>total</b> dollar amount of the money you currently have in your savings accounts?</string>
+    <string name="q3">What is the <b>total</b> dollar amount of the money you currently have in your retirement accounts?</string>
+    <string name="qx1">What is the <b>total</b> current market value dollar amount of the money you have in your investment accounts?</string>
+    <string name="qx2">What is the number of cash you have on hand?</string>
+    <string name="q4">What is the current market value of your home(s)?</string>
+    <string name="q5">What is the current value of your business interests and/or venues?</string>
+    <string name="q6">What is the cash value of any insurance policies you are associated with?</string>
+    <string name="q7">What is the total value of your car(s), with depreciation costs accounted for?</string>
+    <string name="q8">What is the value of any other personal property that you own (jewelry, art, furniture, etc.)?</string>
+
+    <!--    Questionnaire Strings - Liabilities - 1 per each screen-->
+
+    <string name="q9">List the outstanding balances on your credit card(s), if any.</string>
+    <string name="q10">List the value of outstanding housing mortgage payment(s) you have, if any.</string>
+    <string name="q11">List the value of the car loans you may have, if any.</string>
+    <string name="q12">List the value of student loans you may have, if any.</string>
+    <string name="q13">List the value of any taxes that are due, if applicable.</string>
+    <string name="q14">List the total value of bills that must be paid, if any.</string>
+    <string name="q15">List the total value of rent due, if any.</string>
+    <string name="q16">List any other debt, loans, or outsanding payments due</string>
+    <string name="q17"></string>
+    <string name="q18"></string>
+    <string name="q19"></string>
+    <string name="q20"></string>
+
+
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestSplash"
+        tools:targetApi="31">
+        <activity
+            android:label="Launch Screen Activity"
+            android:name="LaunchActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+<!--            <meta-data-->
+<!--                android:name="android.app.lib_name"-->
+<!--                android:value="" />-->
+        </activity>
+        <activity
+            android:name="MainActivity"
+            android:exported="true">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:label="User Login Screen Activity"
+            android:name="UserLoginScreen">
+        </activity>
+        <activity
+            android:label="Guest Login Screen Activity"
+            android:name="GuestLoginScreen">
+        </activity>
+        <activity
+            android:label="Assets Activity"
+            android:name=".AssetsScreen">
+        </activity>
+
+        <activity
+            android:label="Question 1 Screen Activity"
+            android:name=".questionAsks.QuestionnaireQ1">
+        </activity>
+        <activity
+            android:label="Question 2 Screen Activity"
+            android:name=".QuestionnaireQ2">
+        </activity>
+        <activity
+            android:label="Question 3 Screen Activity"
+            android:name=".questionAsks.QuestionnaireQ3">
+        </activity>
+        <activity
+            android:label="Question 4 Screen Activity"
+            android:name=".QuestionnaireQ4">
+        </activity>
+        <activity
+            android:label="Question 5 Screen Activity"
+            android:name=".QuestionnaireQ5">
+        </activity>
+        <activity
+            android:label="Question 6 Screen Activity"
+            android:name=".QuestionnaireQ6">
+        </activity>
+        <activity
+            android:label="Question 7 Screen Activity"
+            android:name=".QuestionnaireQ7">
+        </activity>
+        <activity
+            android:label="Question 8 Screen Activity"
+            android:name=".QuestionnaireQ8">
+        </activity>
+        <activity
+            android:label="Question 9 Screen Activity"
+            android:name=".QuestionnaireQ9">
+        </activity>
+        <activity
+            android:label="Question 10 Screen Activity"
+            android:name=".QuestionnaireQ10">
+        </activity>
+        <activity
+            android:label="Question 11 Screen Activity"
+            android:name=".QuestionnaireQ11">
+        </activity>
+        <activity
+            android:label="Question 12 Screen Activity"
+            android:name=".QuestionnaireQ12">
+        </activity>
+        <activity
+            android:label="Question 13 Screen Activity"
+            android:name=".QuestionnaireQ13">
+        </activity>
+        <activity
+            android:label="Question 14 Screen Activity"
+            android:name=".QuestionnaireQ14">
+        </activity>
+        <activity
+            android:label="Question 15 Screen Activity"
+            android:name=".QuestionnaireQ15">
+        </activity>
+        <activity
+            android:label="Question 16 Screen Activity"
+            android:name=".QuestionnaireQ16">
+        </activity>
+        <activity
+            android:label="Question 17 Screen Activity"
+            android:name=".QuestionnaireQ17">
+        </activity>
+        <activity
+            android:label="Question 18 Screen Activity"
+            android:name=".QuestionnaireQ18">
+        </activity>
+        <activity
+            android:label="Question 19 Screen Activity"
+            android:name=".QuestionnaireQ19">
+        </activity>
+        <activity
+            android:label="Question 20 Screen Activity"
+            android:name=".QuestionnaireQ20">
+        </activity>
+
+    </application>
+
+</manifest>
