@@ -12,39 +12,78 @@
     <string name="question_apply">If a question does not apply to you, \n leave it blank</string>
     <string name="leave_it_to_us">We\'ll do the rest!</string>
     <string name="begin">Begin</string>
-    <string name="assets">Assets</string>
+    <string name="assets"><b>Assets</b></string>
     <string name="liabilities">Liabilities</string>
     <string name="next">Next</string>
 
     <string name="assets_desc">This section will ask about your assets, such as property, business, and other.</string>
-    <string name="confidentiality_notice">All responses entered will be kept confidential, and are never saved.</string>
+    <string name="confidentiality_notice"><i>All responses entered will be kept confidential, and are never saved.</i></string>
+    <string name="question_goes_here">Question goes here</string>
+
+    <string name="questionX_outOf_X"># / #</string>
+    <string name="question1_20">1 / 20</string>
+    <string name="question2_20">2 / 20</string>
+    <string name="question3_20">3 / 20</string>
+    <string name="question4_20">4 / 20</string>
+    <string name="question5_20">5 / 20</string>
+    <string name="question6_20">6 / 20</string>
+    <string name="question7_20">7 / 20</string>
+    <string name="question8_20">8 / 20</string>
+    <string name="question9_20">9 / 20</string>
+    <string name="question10_20">10 / 20</string>
+    <string name="question11_20">11 / 20</string>
+    <string name="question12_20">12 / 20</string>
+    <string name="question13_20">13 / 20</string>
+    <string name="question14_20">14 / 20</string>
+    <string name="question15_20">15 / 20</string>
+    <string name="question16_20">16 / 20</string>
+    <string name="question17_20">17 / 20</string>
+    <string name="question18_20">18 / 20</string>
+
+    <string name="popup_window_string">This is a popup window.</string>
+    <string name="q1_explanation">Calculate your total checking account funds from all the bank accounts you have.</string>
+    <string name="q2_explanation">Calculate your total savings account funds from all the bank accounts you have.</string>
+    <string name="q3_explanation">Calculate your total retirement account funds from all the bank accounts you have.</string>
+    <string name="q4_explanation">Calculate the value of your total investments, if any, at their <i>current</i> market value. Examples of investment items you may include are real estate, stock, bonds, cryptocurrency, and CD\'s.</string>
+    <string name="q5_explanation">Calculate the cash you have physically, such as cash that is stored in a safe, at your home, in your wallet, car, or other locations.</string>
+    <string name="q6_explanation">Calculate the current market value of your home(s) using tools you have at your disposal. These tools may be online evaluation tools or documents.</string>
+    <string name="q7_explanation">Calculate the current value of any business activities or ventures you may personally own and operate.</string>
+    <string name="q8_explanation">Insurance policies may include policies such as life insurance. Include such policies, if any, here.</string>
+    <string name="q9_explanation">Calculate the total <i>current</i> cash value of your car(s) by taking the original value of your car and subtracting from it depreciation. Depreciation is easily calculated using online tools to help you understand what your car(s) are currently worth.</string>
+    <string name="q10_explanation">Calculate the total value of any other assets you own, such as property, furniture, jewelery, antique items and anything else.</string>
+    <string name="q11_explanation">Calculate the total amount of money you owe on your credit cards, if any.</string>
+    <string name="q12_explanation">Calculate the total amount of money you owe on your mortgage payments, if any.</string>
+    <string name="q13_explanation">Calculate the total amount of money you owe on student loans, if any.</string>
+    <string name="q14_explanation">Calculate the total amount of money you owe on your car loans, if any.</string>
+    <string name="q15_explanation">Calculate the total amount of money due as part of your taxes, if any.</string>
+    <string name="q16_explanation">Calculate the total amount of money due as part of any outstanding bills, such as electricity or heating bills.</string>
+    <string name="q17_explanation">Calculate the total amount of money that you owe for rent payment(s), if any.</string>
+    <string name="q18_explanation">Calculate any other debt, loans, outstanding payments or any other items, if applicable.</string>
+    <string name="q_explanation">Placeholder</string>
+
+    <string name="type_here">Type here</string>
 
 <!--    Questionnaire Strings - Assets - 1 per each screen-->
     <string name="q1">What is the <b>total</b> dollar amount of the money you currently have in your checking accounts?</string>
     <string name="q2">What is the <b>total</b> dollar amount of the money you currently have in your savings accounts?</string>
     <string name="q3">What is the <b>total</b> dollar amount of the money you currently have in your retirement accounts?</string>
-    <string name="qx1">What is the <b>total</b> current market value dollar amount of the money you have in your investment accounts?</string>
-    <string name="qx2">What is the number of cash you have on hand?</string>
-    <string name="q4">What is the current market value of your home(s)?</string>
-    <string name="q5">What is the current value of your business interests and/or venues?</string>
-    <string name="q6">What is the cash value of any insurance policies you are associated with?</string>
-    <string name="q7">What is the total value of your car(s), with depreciation costs accounted for?</string>
-    <string name="q8">What is the value of any other personal property that you own (jewelry, art, furniture, etc.)?</string>
+    <string name="q4">What is the <b>total</b> current market value of the money you have in your investment accounts?</string>
+    <string name="q5">What is the number of cash you have on hand?</string>
+    <string name="q6">What is the <i>current</i> market value of your home(s)?</string>
+    <string name="q7">What is the <i>current</i> value of your business activities and/or any venues you may own?</string>
+    <string name="q8">What is the cash value of any insurance policies you are associated with?</string>
+    <string name="q9">What is the total value of your car(s), with depreciation costs accounted for?</string>
+    <string name="q10">What is the value of any other personal property or assets that you own (jewelry, art, furniture, etc.)?</string>
 
     <!--    Questionnaire Strings - Liabilities - 1 per each screen-->
 
-    <string name="q9">List the outstanding balances on your credit card(s), if any.</string>
-    <string name="q10">List the value of outstanding housing mortgage payment(s) you have, if any.</string>
-    <string name="q11">List the value of the car loans you may have, if any.</string>
-    <string name="q12">List the value of student loans you may have, if any.</string>
-    <string name="q13">List the value of any taxes that are due, if applicable.</string>
-    <string name="q14">List the total value of bills that must be paid, if any.</string>
-    <string name="q15">List the total value of rent due, if any.</string>
-    <string name="q16">List any other debt, loans, or outsanding payments due</string>
-    <string name="q17"></string>
-    <string name="q18"></string>
-    <string name="q19"></string>
-    <string name="q20"></string>
-
+    <string name="q11">List the outstanding balances on your credit card(s), if any.</string>
+    <string name="q12">List the value of outstanding housing mortgage payment(s) you have, if any.</string>
+    <string name="q13">List the value of student loans you may have, if any.</string>
+    <string name="q14">List the value of the car loans you may have, if any.</string>
+    <string name="q15">List the value of any taxes that are due, if applicable.</string>
+    <string name="q16">List the total value of bills that must be paid, if any.</string>
+    <string name="q17">List the total value of rent due, if any.</string>
+    <string name="q18">List any other debt, loans, or outstanding payments due, if any.</string>
 
 </resources>

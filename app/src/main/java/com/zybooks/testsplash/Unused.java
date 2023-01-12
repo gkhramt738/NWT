@@ -2,6 +2,11 @@ package com.zybooks.testsplash;
 
 public class Unused {
 
+    // Apply a shadow to the popup window
+    //        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//            popupWindow.setElevation(20);
+//        }
+
     //    Button loginButton;
 //    @Override
 //    protected void onCreate(Bundle savedInstanceState) {

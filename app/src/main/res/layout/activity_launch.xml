@@ -7,7 +7,7 @@
     tools:context="LaunchActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/background_image"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_centerInParent="true"

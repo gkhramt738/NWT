@@ -7,58 +7,50 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <FrameLayout
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/bg2">
+<!--    <FrameLayout-->
+<!--        android:id="@+id/container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@drawable/bg2">-->
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="174dp"
-            android:layout_marginTop="232dp"
-            android:layout_marginEnd="175dp"
-            android:layout_marginBottom="90dp"
-            android:contentDescription="@string/welcome_string"
-            android:text="@string/welcome"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toTopOf="@+id/login_button"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/welcome_string"
+        android:text="@string/welcome"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/login_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/login_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="150dp"
-            android:layout_marginTop="90dp"
-            android:layout_marginEnd="159dp"
-            android:contentDescription="@string/user_login_button_string"
-            android:text="@string/user_login_button"
-            app:layout_constraintBottom_toTopOf="@+id/guest_button"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/user_login_button_string"
+        android:text="@string/user_login_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/guest_button"
-            android:layout_width="102dp"
-            android:layout_height="61dp"
-            android:layout_marginStart="135dp"
-            android:layout_marginTop="400dp"
-            android:layout_marginEnd="400dp"
-            android:layout_marginBottom="294dp"
-            android:contentDescription="@string/guest_login_button_string"
-            android:text="@string/guest_login_button"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/login_button" />
+    <Button
+        android:id="@+id/guest_button"
+        android:layout_width="102dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="280dp"
+        android:contentDescription="@string/guest_login_button_string"
+        android:text="@string/guest_login_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button" />
 
-    </FrameLayout>
+    <!--    </FrameLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

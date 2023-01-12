@@ -7,7 +7,7 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.zybooks.testsplash.questionAsks.QuestionnaireQ1;
+import com.zybooks.testsplash.QuestionnaireQs.QuestionnaireQ1;
 
 public class AssetsScreen extends AppCompatActivity {
 
