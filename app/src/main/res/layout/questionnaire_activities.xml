@@ -16,10 +16,11 @@
         app:srcCompat="@drawable/bluebackground"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        android:contentDescription="@string/background_image" />
 
     <TextView
-        android:id="@+id/question_display"
+        android:id="@+id/header"
         android:layout_width="325dp"
         android:layout_height="82dp"
         android:layout_marginTop="500dp"
@@ -48,12 +49,13 @@
         app:layout_constraintEnd_toEndOf="@+id/background_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/background_image"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.499"
+        android:autofillHints="Text" />
 
     <Button
         android:id="@+id/next_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="85dp"
+        android:layout_height="49dp"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="@+id/background_image"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,14 +81,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:src="@drawable/ic_baseline_arrow_back_24" />
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="@string/background_image" />
 
         <ImageButton
             android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:src="@drawable/ic_baseline_arrow_forward_24" />
+            android:src="@drawable/ic_baseline_arrow_forward_24"
+            android:contentDescription="@string/forward_button" />
     </FrameLayout>
 
     <ImageView
@@ -98,15 +102,17 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_value_edit_text"
-        app:srcCompat="@drawable/ic_baseline_info_24" />
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/ic_baseline_info_24"
+        android:contentDescription="@string/info_icon" />
 
-        <TextView
+    <TextView
             android:id="@+id/question_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/questionX_outOf_X"
             android:textSize="30sp"
-            app:layout_constraintBottom_toTopOf="@+id/question_display"
+            app:layout_constraintBottom_toTopOf="@+id/header"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/background_image" />

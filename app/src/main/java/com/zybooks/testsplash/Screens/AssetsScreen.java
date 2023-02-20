@@ -1,4 +1,7 @@
-package com.zybooks.testsplash;
+package com.zybooks.testsplash.Screens;
+
+import com.zybooks.testsplash.*;
+import com.zybooks.testsplash.QuestionnaireQs.QuestionnaireQ1;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -15,35 +18,35 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.zybooks.testsplash.Screens.AssetsScreen;
+public class AssetsScreen extends AppCompatActivity {
 
-public class GuestLoginScreen extends AppCompatActivity {
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.guest_login);
+        setContentView(R.layout.assets_activity);
 
         // Inflates icon text on icon click
         ImageView iconImage = findViewById(R.id.info_icon_image);
         iconImage.setOnClickListener(this::onInfoIconClickShowPopupWindow);
 
         // Begins the questionnaire by accessing screen with first question when clicked
-        Button beginButton = (Button) findViewById(R.id.next_button);
-        beginButton.setOnClickListener(view -> {
-            Intent intent = new Intent(view.getContext(), AssetsScreen.class);
+        Button nextButton = (Button) findViewById(R.id.next_button);
+        nextButton.setOnClickListener(view -> {
+            Intent intent = new Intent(view.getContext(), QuestionnaireQ1.class);
             view.getContext().startActivity(intent);
         });
 
-        // Returns to MainActivity (the home screen) when clicked
+        // Returns to GuestLoginScreen when clicked
         ImageButton backButton = (ImageButton) findViewById(R.id.back_button);
         backButton.setOnClickListener(view -> {
-            Intent intent = new Intent(view.getContext(), MainActivity.class);
+            Intent intent = new Intent(view.getContext(), GuestLoginScreen.class);
             view.getContext().startActivity(intent);
         });
 
         // Begins the questionnaire by accessing screen with first question when clicked
         ImageButton forwardButton = (ImageButton) findViewById(R.id.forward_button);
         forwardButton.setOnClickListener(view -> {
-            Intent intent = new Intent(view.getContext(), AssetsScreen.class);
+            Intent intent = new Intent(view.getContext(), QuestionnaireQ1.class);
             view.getContext().startActivity(intent);
         });
 
@@ -58,7 +61,7 @@ public class GuestLoginScreen extends AppCompatActivity {
 
         // Override XML file with setting appropriate info icon text
         TextView iconText = popupView.getRootView().findViewById(R.id.popup_window);
-        iconText.setText(R.string.account);
+        iconText.setText(R.string.round_answer);
 
         // Create the popup window with required parameters
         int width = LinearLayout.LayoutParams.WRAP_CONTENT;
@@ -67,7 +70,7 @@ public class GuestLoginScreen extends AppCompatActivity {
         final PopupWindow popupWindow = new PopupWindow(popupView, width, height, focusable);
 
         // Display the popup window in the center of the screen
-        popupWindow.showAtLocation(view, Gravity.CENTER, 0, -5);
+        popupWindow.showAtLocation(view, Gravity.CENTER, 0, 8);
 
         // Close the popup window when anywhere on screen is touched
         popupView.setOnTouchListener((v, event) -> {
